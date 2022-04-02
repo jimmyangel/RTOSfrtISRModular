@@ -1,0 +1,13 @@
+#define BUTTON_PIN 2
+#define SOUND_SENSOR_PIN 19
+#define INDUCTION_LEDS_PIN 4
+#define BUZZER_PIN 8
+#define DHT_SENSOR_PIN 5
+#define LCD_RS 6
+#define LCD_E 7
+#define LCD_D4 12
+#define LCD_D5 11
+#define LCD_D6 10
+#define LCD_D7 9
+#define LCD_A 3
+#define SERVO_PIN 45
