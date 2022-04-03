@@ -16,7 +16,6 @@ class ServoTask final : public frt::Task<ServoTask> {
     ServoTask();
     bool run();
   private:
-    //Servo servo;
 };
 
 #endif

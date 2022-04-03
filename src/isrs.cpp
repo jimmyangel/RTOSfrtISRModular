@@ -7,7 +7,7 @@ void isrs::buttonISR() {
 }
 
 void isrs::soundSensorISR() {
-
+  
   clap_semaphore.preparePostFromInterrupt();
   clap_semaphore.postFromInterrupt();
   clap_semaphore.finalizePostFromInterrupt();

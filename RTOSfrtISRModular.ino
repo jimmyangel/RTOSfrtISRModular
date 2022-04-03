@@ -1,8 +1,8 @@
 #include <ArduinoLog.h>
 #include <avr/sleep.h>
-#include "RTOSTasks.h"
-#include "isrs.h"
-#include "constants.h"
+#include "src/RTOSTasks.h"
+#include "src/isrs.h"
+#include "src/constants.h"
 
 void setup() {
 
