@@ -38,7 +38,7 @@ void setup() {
 
   // Set timer 0 compare interrupt
   OCR0A = 0xAF;
-  TIMSK0 |= _BV(OCIE0A);
+  TIMSK0 |= _BV(OCIE0B);
 
   servo.attach(SERVO_PIN);
 

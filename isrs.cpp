@@ -7,7 +7,7 @@ void isrs::buttonISR() {
 }
 
 void isrs::soundSensorISR() {
-  
+
   clap_semaphore.preparePostFromInterrupt();
   clap_semaphore.postFromInterrupt();
   clap_semaphore.finalizePostFromInterrupt();
@@ -29,7 +29,7 @@ void isrs::disableSoundSensorISR() {
 
 // Timer interrupt, used to refresh servo every 20ms
 volatile int counter = 0;
-ISR(TIMER0_COMPA_vect) {
+ISR(TIMER0_COMPB_vect) {
   // this gets called every millisecond
   counter++;
   // every 20 milliseconds, refresh the servos!
